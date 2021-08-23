@@ -1,8 +1,16 @@
 # GSoC2021
 
-Things [I](https://twitter.com/realDhruvPatel) did as a part of Google summer Of Code in 2021 at Layer5.
+Things [I](https://twitter.com/realDhruvPatel) did/learn as a part of Google summer Of Code in 2021 at Layer5.
 
 ## Organization: CNCF with Meshery
+
+## MeshMap
+
+Delivered a visual topology that subscribes to custom-written GraphQL resolvers and sources data from MeshSync, a Kubernetes custom controller using a NATS connection. The visual topology, in effect, takes the blinders off of service mesh operators, enabling them to see their infrastructure deployments as nodes represented in a three-dimensional canvas, and also allowing them to monitor and interact with specific part of their infrastructure using . This visualization works for any service mesh project and is the only visualizer of its kind… in the world.
+
+![nsHei](https://user-images.githubusercontent.com/44001539/122640749-cb99a400-d11e-11eb-864a-a5a20be6deda.gif)
+
+![logs](https://user-images.githubusercontent.com/44001539/125004483-3df30980-e077-11eb-964a-e83b7c02e51d.gif)
 
 ## GraphQL
 
@@ -56,12 +64,14 @@ Helped fix the `mesh vaildate` command to successfully run [SMI test](https://do
 ## Other Contributions
 
 UI Fixes:
+
 - https://github.com/meshery/meshery/pull/3146
 - https://github.com/meshery/meshery/pull/3299
 - https://github.com/meshery/meshery/pull/3420
 - https://github.com/meshery/meshery/pull/3763
 
 Meshery Chart Fixes:
+
 - https://github.com/meshery/meshery/pull/3220
 - https://github.com/meshery/meshery/pull/3247
 - https://github.com/meshery/meshery/pull/3263
@@ -69,7 +79,15 @@ Meshery Chart Fixes:
 - https://github.com/meshery/meshery/pull/3220
 
 Meshery Server Fixes:
+
 - https://github.com/meshery/meshery/pull/3416
 - https://github.com/meshery/meshery/pull/3742
 - https://github.com/meshery/meshery/pull/3710
 
+## Personal Take Aways
+
+(As a future note to myself)
+
+- Empower others to empower yourself.
+- Promotion is just acknowledgement of what you are already doing.
+- Have fun while you are at it.
